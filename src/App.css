@@ -1,0 +1,146 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+section {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  border: 1px solid #eee;
+  padding: 12px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+input {
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+select {
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.code {
+  display: inline-block;
+  padding: 2px 6px;
+  border: 1px solid #eee;
+  background: #fafafa;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hint {
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.outputWrap {
+  display: grid;
+  gap: 8px;
+}
+
+.output {
+  background: #0b0b0b;
+  color: #e8e8e8;
+  padding: 12px;
+  min-height: 260px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+.panelTableWrap {
+  max-height: 280px;
+  overflow: auto;
+  border: 1px solid #eee;
+}
+
+.panelTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.panelTable th,
+.panelTable td {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.panelList {
+  display: grid;
+  gap: 8px;
+  max-height: 280px;
+  overflow: auto;
+  border: 1px solid #eee;
+  padding: 8px;
+}
+
+.panelListItem {
+  border: 1px solid #f2f2f2;
+  padding: 8px;
+}
+
+.panelListMeta {
+  display: flex;
+  gap: 10px;
+  opacity: 0.85;
+  font-size: 12px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.panelListBody {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.mono {
+  font-family:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
